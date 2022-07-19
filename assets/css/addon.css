@@ -1,0 +1,15 @@
+/*
+ *  additional styles for the theme
+ */
+
+.donation-form-payment {
+	margin-top: 50px;
+}
+
+.donation-form-select .btn {
+	margin-top: 0;
+}
+
+.current-lang {
+	background-color: #fed500;
+}
