@@ -3,7 +3,7 @@ include("../../../../wp-load.php");
 
 \Stripe\Stripe::setApiKey('sk_live_...');
 
-$endpoint_secret = 'whsec_YSHDjVXMtzYCvMvAUaKTCXgSfRhZ7JeU';
+$endpoint_secret = 'whsec_...';
 
 $payload = @file_get_contents('php://input');
 

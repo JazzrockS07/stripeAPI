@@ -58,11 +58,11 @@ if(isset($_POST['subscription']) && $_POST['subscription'] == 'to-subscription')
 	update_field( 'currency_from_form', $payment_currency_from_form, $post_id);
 
 	if ($payment_currency_from_form == 'uah' ) {
-		$price = 'price_1LHotLAnShFhSlryHAmqdm8V';
+		$price = 'price_...';
 	} elseif ($payment_currency_from_form == 'ron') {
-		$price = 'price_1LHoiuAnShFhSlryyPFnJAuV';
+		$price = 'price_...';
 	} else {
-		$price = 'price_1LHohQAnShFhSlryrcflNwMt';
+		$price = 'price_...';
 	}
 
 	$request = [
