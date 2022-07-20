@@ -66,7 +66,7 @@ if (isset($event->data->object->subscription) && ($event->data->object->billing_
 
 	$count_invoiceid = count($invoice_isset);
 
-	if($count_subscriptionid > 0 && $count_invoiceid < 1) {
+	if($count_subscriptionid > 0 && $count_invoiceid < 1) { //check if subscription isset and information about such a payment has not yet been received
 		$payment_platform = 'stripe';
 		$payment_name = $event->data->object->customer_name;
 		$payment_amount = $event->data->object->amount_paid;
